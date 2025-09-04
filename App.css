@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* App Container */
+.App {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+/* Heading */
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Input Field */
+input {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid #4facfe;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Search Button */
+button {
+  background: #4facfe;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00c6ff;
+}
+
+/* Weather Information */
+.weather-info {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+
+/* City Name */
+h2 {
+  font-size: 22px;
+  color: #222;
+}
+
+/* Weather Details */
+p {
+  font-size: 16px;
+  color: #444;
+}
+
+/* Error Message */
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .App {
+    width: 90%;
+  }
+
+  input {
+    width: 70%;
+  }
+
+  button {
+    padding: 10px;
+  }
+}
